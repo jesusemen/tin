@@ -1,7 +1,7 @@
 function clickMe () {
  var randomNumber1  = Math.floor(Math.random()*6) + 1;
  var randomDiceImage = "dice" + randomNumber1 + ".png";
- var randomDiceSource = "images/" + randomDiceImage;
+ var randomDiceSource = "" + randomDiceImage;
 
 var image1 = document.querySelectorAll('img')[0];
 
@@ -9,7 +9,7 @@ var image1 = document.querySelectorAll('img')[0];
 
 
  var randomNumber2 = Math.floor(Math.random()*6) + 1;
- var randomDiceSource2 = "images/dice" + randomNumber2 + ".png";
+ var randomDiceSource2 = "dice" + randomNumber2 + ".png";
 
  var image2 = document.querySelectorAll('img')[1];
 
